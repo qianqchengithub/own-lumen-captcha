@@ -1,0 +1,33 @@
+{
+    "name": "qianqchengithub/own-lumen-captcha",
+    "description": "Lumen qianqchengithub own-lumen-captcha",
+    "keywords": [
+        "Lumen",
+        "own-lumen-captcha"
+    ],
+    "homepage": "https://github.com/qianqchengithub/own-lumen-captcha",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/qianqchengithub/own-lumen-captcha"
+    },
+    "authors": [
+        {
+            "name": "qiang",
+            "email": "990195662@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/lumen-framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "qiang\\": ""
+        }
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
